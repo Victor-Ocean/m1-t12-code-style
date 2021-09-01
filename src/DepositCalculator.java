@@ -43,6 +43,7 @@ public class DepositCalculator {
         System.out.println("Результат вклада: " + amount + " за " + period + " лет превратятся в " + out);
     }
     
+    // test
     public static void main(String[] args) {
         new DepositCalculator().doCalculate();
     }
